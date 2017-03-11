@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body > header{
+	background-color: grey;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 32px;
+	padding-right: 32px;
+	position: fixed;
+	width: 100%;
+}
+
+body > header > div img{
+	height: 32px;
+}
+
+body > header > nav{
+padding: 64px;
+
+}
+
+body > header > nav > ul {
+	display: flex;
+}
+
+body > header > nav > ul li{
+	margin-left: 8px;
+	list-style-type: none;
+	font-weight: bold;
+    font-size: 24px;
+}
+
+body > header > nav > ul > li a{
+	text-decoration: none;
+	color: white;
+}
+body > main {
+	padding-top:70px;
+}
+
+body > main > section > header{
+	background-color: grey;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+body > main > section > header > div.social img{
+height: 24px;
+}
+
+body > main > section > main {
+	display: flex;
+	justify-content: space-between;
+}
+
+body > main > section > main > div.left{
+  margin: 10px;
+}
+
+body > main > section > main > div.left img{
+	height: 300px;
+	width: 300px;
+}
+
+body > main > section > main > div.right{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+body > main > section > main > div.right > div.product img{
+	justify-content: space-between;
+	height: 200px;
+}
+body > main > section > main > div.right > div.product {
+	display: flex;
+	justify-content: space-around;
+}
+
+body > main > section > main > div.right p{
+	padding: 10px;
+	box-sizing: border-box;
+	line
+}
+
+body > main > section > main > div.right h4{
+	padding: 10px;
+}
+
